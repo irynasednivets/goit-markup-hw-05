@@ -133,8 +133,9 @@ body {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.current{
-    color: #404bbf;}
+.current {
+    color: #404bbf;
+}
 
 .header_menu_li:hover {
     color: #404bbf;
@@ -530,24 +531,27 @@ body {
 .media_icon_footer {
     fill: #f4f4fd;
 }
-.footer_box{
 
+.footer_box {
     margin-left: 80px;
-    
+    margin-right: 80px;
 }
-.footer_subscription{
+
+.footer_subscription {
     display: flex;
     gap: 24px;
 }
-.footer_box_title{
-    color: #ffffff;   
-    font-size: 16px;        
+
+.footer_box_title {
+    color: #ffffff;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;        
+    line-height: 1.5;
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
-.input_footer{
+
+.input_footer {
     width: 264px;
     height: 40px;
     color: #ffffff;
@@ -561,14 +565,16 @@ body {
     letter-spacing: 0.04em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
-.input_footer::placeholder{
-    color:#ffffff;
+
+.input_footer::placeholder {
+    color: #ffffff;
     font-size: 12px;
     font-weight: 400;
     line-height: 2;
     letter-spacing: 0.04em;
 }
-.footer_but{
+
+.footer_but {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -578,20 +584,22 @@ body {
     background: #4d5ae5;
     border: none;
     color: #ffffff;
-    text-align: center;  
-    font-size: 16px;       
+    text-align: center;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 1.5;        
+    line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer_but:is(:hover,:focus){
+
+.footer_but:is(:hover, :focus) {
     background-color: #404bbf;
 }
-.footer_icon_but{
+
+.footer_icon_but {
     margin-left: 16px;
 }
 
