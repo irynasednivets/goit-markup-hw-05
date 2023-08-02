@@ -530,6 +530,70 @@ body {
 .media_icon_footer {
     fill: #f4f4fd;
 }
+.footer-box{
+
+    margin-left: 80px;
+    
+}
+.footer_subscription{
+    display: flex;
+    gap: 24px;
+}
+.footer_box_title{
+    color: #ffffff;   
+    font-size: 16px;        
+    font-weight: 500;
+    line-height: 1.5;        
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+.input_footer{
+    width: 264px;
+    height: 40px;
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    padding: 0 16px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+.input_footer::placeholder{
+    color:#ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+}
+.footer_but{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 165px;
+    padding: 8px 24px;
+    border-radius: 4px;
+    background: #4d5ae5;
+    border: none;
+    color: #ffffff;
+    text-align: center;  
+    font-size: 16px;       
+    font-weight: 500;
+    line-height: 1.5;        
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer_but:is(:hover,:focus){
+    background-color: #404bbf;
+}
+.footer_icon_button{
+    margin-left: 16px;
+}
 
 .portfolio_main_but {
     padding-top: 96px;
