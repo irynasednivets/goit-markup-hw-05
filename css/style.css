@@ -533,7 +533,6 @@ body {
 }
 
 .footer_box {
-    margin-left: 80px;
     margin-right: 80px;
 }
 
@@ -621,8 +620,6 @@ body {
     gap: 244px;
     justify-content: center;
 }
-
-.potfolio_main_item {}
 
 .portfolio_but {
     font-family: "Roboto", sans-serif;
